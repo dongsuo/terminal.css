@@ -1,0 +1,80 @@
+.terminal {
+  width: 100%;
+  border-radius: 4px;
+  background-color: rgb(3, 9, 36);
+  color: white;
+  margin-bottom: 10px;
+}
+
+.terminal terminal-window {
+  min-height: 140px;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: normal;
+  font-family: "Courier New", Monaco, Menlo, Consolas, monospace;
+  color: #fff
+}
+
+.terminal .header ul.shell-dots li {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: rgb(3, 9, 36);
+  margin-left: 6px
+}
+
+.terminal .header ul.shell-dots li.red {
+  background-color: rgb(200, 48, 48);
+}
+
+.terminal .header ul.shell-dots li.yellow {
+  background-color: rgb(247, 219, 96);
+}
+
+.terminal .header ul.shell-dots li.green {
+  background-color: rgb(46, 201, 113);
+}
+
+.terminal .header {
+  position: relative;
+  background-color: rgb(149, 149, 152);
+  text-align: center;
+  padding: 2px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px
+}
+
+.terminal .header h4 {
+  font-size: 14px;
+  margin: 5px;
+  letter-spacing: 1px;
+}
+
+.terminal .header ul.shell-dots {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  padding-left: 0
+}
+
+.terminal .terminal-window .prompt {
+  margin-right: 10px;
+}
+
+.terminal .terminal-window .cursor {
+  background-color: white;
+  animation: blink 1s steps(5, start) infinite;
+  -webkit-animation: blink 1s steps(5, start) infinite;
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
