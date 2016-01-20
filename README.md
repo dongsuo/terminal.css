@@ -2,7 +2,7 @@
 
 Want a cool terminal window on your webiste like [consul.io](https://www.consul.io)? Add termial.css and see markup below or example.html.
 
-![terminal](https://raw.github.com/isabellatromba/css/master/terminal.png)
+![terminal](https://raw.github.com/isabellatromba/terminal.css/master/terminal.png)
 
 The width of the terminal class is 100% so it will resize depending on its parent container. The cursor class has an animation causing it to blink every 1s.
 
